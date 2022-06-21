@@ -34,6 +34,8 @@ async function testLogin() {
             }
         }
     }
+
+    console.log("Successfully logged in and out of an account");
 }
 
 module.exports = {testLogin}
